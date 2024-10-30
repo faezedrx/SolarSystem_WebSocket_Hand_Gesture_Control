@@ -23,9 +23,11 @@ This project is a 3D interactive solar system simulation using Babylon.js, desig
    git clone https://github.com/faezedrx/SolarSystem_WebSocket_Hand_Gesture_Control.git
    cd SolarSystem_WebSocket_Hand_Gesture_Control
    ```
-2. Install the required dependencies for the WebSocket server:
+2. Use the following commands to install the required packages:
    ```bash
    pip install websockets
+   pip install opencv-python  
+   pip install mediapipe   
    ```
 3. Run the WebSocket server:
    ```bash
