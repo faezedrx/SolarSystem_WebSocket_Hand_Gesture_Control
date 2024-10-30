@@ -28,13 +28,13 @@ This project is a 3D interactive solar system simulation using Babylon.js, desig
    pip install websockets
    ```
 3. Run the WebSocket server:
-  ```bash
-  python server.py
-  ```
+   ```bash
+     python server.py
+   ```
 4. Open `index.html` in a web browser to view the solar system simulation.
 
 
-##  🧩 How It Works
+## 🧩 How It Works
 
 . **Rendering** : Babylon.js creates a 3D scene with the sun and planets. The planets rotate around the sun with adjustable speed.
 . **Gesture Control**: The WebSocket server (`server.py`) sends gesture data (e.g., palm detection and zoom distance). Based on the received data:
@@ -43,6 +43,7 @@ This project is a 3D interactive solar system simulation using Babylon.js, desig
 
 
 ## 💡 Technologies Used
+
 - Babylon.js for 3D rendering
 - WebSockets for real-time communication
 - HTML/CSS for webpage structure and styling
