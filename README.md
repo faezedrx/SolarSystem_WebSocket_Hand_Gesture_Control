@@ -36,8 +36,8 @@ This project is a 3D interactive solar system simulation using Babylon.js, desig
 
 ## 🧩 How It Works
 
-. **Rendering** : Babylon.js creates a 3D scene with the sun and planets. The planets rotate around the sun with adjustable speed.
-. **Gesture Control**: The WebSocket server (`server.py`) sends gesture data (e.g., palm detection and zoom distance). Based on the received data:
+- **Rendering** : Babylon.js creates a 3D scene with the sun and planets. The planets rotate around the sun with adjustable speed.
+- **Gesture Control**: The WebSocket server (`server.py`) sends gesture data (e.g., palm detection and zoom distance). Based on the received data:
   - **Palm Detection**: Stops or resumes the planets' rotation.
   - **Zoom Control**: Adjusts the camera's zoom level.
 
